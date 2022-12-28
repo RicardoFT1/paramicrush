@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans:wght@300&family=Play&display=swap');
+
+:root {
+	font-family: 'Open Sans', sans-serif;
+	--Black: #34353A;
+	--Yellow: #FBCB73;
+	--Gray1: #C0C1C6;
+	--Gray2: #3D3E42;
+	--White:#F7F8FA;
+	--Azul:rgba(6, 54, 132, 0.7);
+    --rojo: #EE0D0D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+h1{
+    color: var(--Black);
+}
+
+.sex-mode{
+    height: 1000px;
+    position: absolute;
+    display: none;
+    width: 100%;
+    background-color: var(--rojo);
+    z-index: 1000;
+}
+
+#btn_si{
+    background-color: var(--Yellow);
+    border-color: var(--rojo);
+    color: var(--White);
+    font-size: xx-large;
+    padding: 32px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+#btn_no{
+    background-color: var(--Gray1);
+    border-color: var(--Gray2);
+    color: var(--White);
+    font-size: small;
+    padding: 10px;
+    text-align: center;
+    border-radius: 2px;
+}
